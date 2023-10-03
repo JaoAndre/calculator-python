@@ -46,7 +46,7 @@ for (numero, x, y) in botoes_numeros:
 
 # Loop Operadores.
 for (operador, y) in botoes_operadores:
-    botao = tk.Button(janela, text=f"{operador}", font=("Inter", 10, "normal"), background="#30ad6b", foreground="#ffffff", relief="flat", highlightthickness=0, command=lambda ope=operador: adicionar_operador(f"{ope}"))
+    botao = tk.Button(janela, text=f"{operador}", font=("Inter", 10, "normal"), background="#30ad6b", foreground="#ffffff", relief="flat", highlightthickness=0, command=lambda ope=operador: adicionar_operador(f" {ope} "))
     botao.place(x=210, y=y, width=50, height=50)
 
 # Botão de Igual.
