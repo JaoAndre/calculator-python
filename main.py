@@ -22,7 +22,7 @@ def calcular():
 
 # Configuração da Janela.
 janela = tk.Tk()
-janela.title("Gerenciador de Membros")
+janela.title("Calculadora")
 janela.geometry("300x430")
 janela.resizable(False, False)
 janela.configure(background="#292c30")
